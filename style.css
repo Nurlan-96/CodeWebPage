@@ -1,0 +1,18 @@
+html, body { height: 100%; margin: 0; padding: 0 }
+
+div { position: fixed; width: 50%; height: 50%;}
+
+#NW { top: 0;   left: 0;}
+#NE { top: 0;   left: 50%;}
+#SW { top: 50%; left: 0;}
+#SE { top: 50%; left: 50%;}
+
+div > h3,p,a {
+display: inline-block;
+margin: auto;
+padding: 10px;
+font-size: large;
+}
+img{
+    padding: 20px;
+}
